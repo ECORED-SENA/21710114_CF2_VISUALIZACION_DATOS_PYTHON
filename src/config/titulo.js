@@ -1,1 +1,1 @@
-module.exports = 'Metodologías de visualización de datos'
+module.exports = 'Herramientas de visualización de datos'
