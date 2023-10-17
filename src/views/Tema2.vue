@@ -13,9 +13,9 @@
       .bloque-texto-g__texto.px-4.py-5
         p Esta librería se destaca por ser la más utilizada en la comunidad desarrolladora, particularmente, para los científicos de datos. Matplotlib, como ya se ha dicho, no es más que una biblioteca de Python para la visualización de gráficas dinámicas o estáticas. En este apartado, se tratará de explicar cómo es su implementación y cuáles son las gráficas resultantes.
 
-    
+
     p.my-5 Para instalar e implementar la biblioteca, se corre el comando <b>pip</b>, a través de los siguientes pasos:
-      
+
     .row.justify-content-center.align-items-center
       .col-lg-3.mb-4.mb-lg-0
         figure
@@ -60,7 +60,7 @@
       .col-12.bg-c5
         .p-4
           SlyderB(:datos="datosSlyder1")
-    h3.mb-4 Al comparar datos
+    h3.mb-4 Explorar relaciones / #[em Part-To-Whole] (de la parte al todo)
     .titulo-sexto.color-acento-contenido
       p.mb-0 #[b Figura 2]. Gráfica de exploración de relaciones
     figure.mb-5
@@ -110,14 +110,14 @@
             p.mb-0 <i>Linear Gauge</i> es una visualización de herramientas de medición con una escala lineal, como termómetros, tanques, indicadores de color (LED), etc. Los valores de los datos se muestran en el eje del indicador, con la ayuda de uno o varios punteros: marcadores, rangos, etc.
           .col-lg-4
             figure
-              img(src='@/assets/curso/tema5/img21.png', style="width: 350px" ,alt='').m-auto
+              img(src='@/assets/curso/tema5/img21b.png', style="max-width: 185px" ,alt='').m-auto
       .tarjeta.color-acento-botones1.p-4(titulo="<i>Bullet graph</i>")
         .row.align-items-center
           .col-lg-8.mb-4.mb-lg-0
             p.mb-0 Los gráficos de viñetas están diseñados para superar los problemas fundamentales de los indicadores circulares y lineales, que a menudo están repletos de decoración inútil (y que distrae), mientras muestran muy poca información y requieren demasiado espacio. Los gráficos de viñetas pueden ser tanto verticales como horizontales.
           .col-lg-4
             figure
-              img(src='@/assets/curso/tema5/img22.png', style="width: 350px" ,alt='').m-auto
+              img(src='@/assets/curso/tema5/img22b.png', style="width: 330px" ,alt='').m-auto
     h3.mb-4 Datos geográficos
     .titulo-sexto.color-acento-contenido
       p.mb-0 #[b Figura 6]. Gráfica de #[i performance] geográfico

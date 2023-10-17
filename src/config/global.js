@@ -35,7 +35,6 @@ export default {
         titulo: 'Herramientas a utilizar',
         desarrolloContenidos: true,
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',

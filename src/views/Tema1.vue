@@ -32,57 +32,59 @@
             .col-12
               p Si se quiere realizar gráficos geográficos, esta librería es la indicada, ya que permite realizar gráficos de alta densidad e interactivos al estilo de leaflet.js., debido a que los gráficos de folium son interactivos, lo que hace que sea la herramienta ideal para realizar #[em dashboards].
     p.mb-5 Cuando se empieza un proyecto de visualización, la duda que se viene a la cabeza es cuál herramienta utilizar para poder realizar un trabajo que satisfaga las necesidades del usuario final. #[b.txt-c1 En ese orden de ideas, es bueno tener en cuenta la siguiente guía, que ayudará a la escogencia de la herramienta o librería indicada; no es obligatorio seguirla al pie de la letra, pero será de gran valor a la hora de elegir]:
+
     figure.mb-5
-      img(src='@/assets/curso/tema4/img3.svg', style="width: 250px" ,alt='').m-auto
+      img(src='@/assets/curso/tema4/img3.svg', style="" ,alt='').m-auto
+
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
       .row(titulo="Dos variables (Relación)")
         .col-lg-4.mb-4.mb-lg-0
           p En la categoría de relación, si tienes dos variables, podrás usar un #[b gráfico de dispersión]:
         .col-lg-8
           figure
-            img(src='@/assets/curso/tema4/img3.png', style="width: 850px" ,alt='').m-auto
+            img(src='@/assets/curso/tema4/img3.png', style="width: 850px" ,alt='Imagen de una gráfica de dispersión.').m-auto
       .row(titulo="Tres variables (Relación)")
         .col-lg-4.mb-4.mb-lg-0
           p En la categoría de relación, si tienes tres variables, podrás usar un #[b gráfico de burbujas]:
         .col-lg-8
           figure
-            img(src='@/assets/curso/tema4/img4.png', style="width: 850px" ,alt='').m-auto
+            img(src='@/assets/curso/tema4/img4.png', style="width: 850px" ,alt='Imagen de una gráfica de burbujas.').m-auto
       .row(titulo="Variable única (Distribución)")
         .col-lg-4.mb-4.mb-lg-0
           p En la categoría de distribución, podemos tener una variable única, pero que, a su vez, tenga pocos o muchos ítems; para este caso, se recomiendan los siguientes gráficos:
         .col-lg-8
           figure
-            img(src='@/assets/curso/tema4/img5.png', style="width: 850px" ,alt='').m-auto
+            img(src='@/assets/curso/tema4/img5.png', style="width: 850px" ,alt='Imagen de un histograma de columnas y de un histograma de línea.').m-auto
       .row(titulo="Dos o tres variables (Distribución)")
         .col-lg-4.mb-4.mb-lg-0
           p En la categoría de distribución, podemos tener dos o tres variables; para estos casos, se recomiendan los siguientes gráficos:
         .col-lg-8
           figure
-            img(src='@/assets/curso/tema4/img6.png', style="width: 850px" ,alt='').m-auto
+            img(src='@/assets/curso/tema4/img6.png', style="width: 850px" ,alt='Imagen de un gráfico de dispersión y de un gráfico de área 3-D.').m-auto
       .row(titulo="Cambiantes en el tiempo (Composición)")
         .col-lg-4.mb-4.mb-lg-0
           p En esta categoría de composición, si tenemos datos cambiantes en el tiempo, podemos manejar los siguientes gráficos, según corresponda:
         .col-lg-8
           figure
-            img(src='@/assets/curso/tema4/img7.png', style="width: 850px" ,alt='').m-auto
+            img(src='@/assets/curso/tema4/img7.png', style="width: 850px" ,alt='Imagen de un gráfico apilado 100% de columnas, un gráfico apilado de columnas, de un gráfico apilado de área 100% y de un gráfico apilado de área.').m-auto
       .row(titulo="Estático (Composición)")
         .col-lg-4.mb-4.mb-lg-0
           p En la categoría de composición, si tenemos datos estáticos, podemos manejar los siguientes gráficos, según corresponda:
         .col-lg-8
           figure
-            img(src='@/assets/curso/tema4/img8.png', style="width: 850px" ,alt='').m-auto
+            img(src='@/assets/curso/tema4/img8.png', style="width: 850px" ,alt='Imagen de un gráfico de torta, un gráfico de cascada y un gráfico ampliado 100% de columnas con subcomponentes.').m-auto
       .row(titulo="Estático (Comparación)")
         .col-lg-4.mb-4.mb-lg-0
           p En esta categoría de comparación, si tenemos datos estáticos, podemos usar los siguientes gráficos, según corresponda:
         .col-lg-8
           figure
-            img(src='@/assets/curso/tema4/img9.png', style="width: 850px" ,alt='').m-auto
+            img(src='@/assets/curso/tema4/img9.png', style="width: 850px" ,alt='Imagen de un gráfico de barras, un gráfico de anchos variables, un gráfico de barras múltiples y una tabla con gráficos embebidos.').m-auto
       .row(titulo="Cambiantes en el tiempo (Comparación)")
         .col-lg-4.mb-4.mb-lg-0
           p En esta categoría de comparación, si tenemos datos estáticos, podemos usar los siguientes gráficos, según corresponda:
         .col-lg-8
           figure
-            img(src='@/assets/curso/tema4/img10.png', style="width: 850px" ,alt='').m-auto
+            img(src='@/assets/curso/tema4/img10.png', style="width: 850px" ,alt='Imagen de un gráfico de área circular, un gráfico de línea, un gráfico de columnas y un gráfico de líneas con muchos ítems.').m-auto
     p.mb-5 Como se observa, hay una división en cuatro partes principales, y estas, después, se subdividen en métodos de visualización, que representan las categorías iniciales, como se puede ver a continuación:
     .row.justify-content-center
       .col-11.col-md-7.col-lg.bg-c12.m-2

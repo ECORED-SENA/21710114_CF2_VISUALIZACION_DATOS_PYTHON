@@ -19,31 +19,34 @@
 
 
     .row.justify-content-center.mb-5
-      .col-xl-6
+      .col-xl-12
         .tarjeta.color-acento-botones1.p-4.mb-5
           h4 Ejemplo 1
           p.mb-0 Se digita un código donde se le pregunta a un usuario por las ventas en un intervalo de años y que muestra, mediante un diagrama, el incremento o decremento, dado el caso, de las ventas de la empresa:
 
+        .row.justify-content-center.mb-5
+          .col-xl-8
+            .titulo-sexto.color-acento-contenido.mb-4
+              h5 Figura 9.
+              span Simulación de caso 1
 
-        .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 9.
-          span Simulación de caso 1
+            figure
+              img(src="@/assets/curso/tema6/img2.png", alt="Imagen de la simulación del caso, que muestra el código señalado y el diagrama con el incremento o decremento de ventas, citado.")
 
-        figure
-          img(src="@/assets/curso/tema6/img2.png", alt="Imagen de la simulación del caso, que muestra el código señalado y el diagrama con el incremento o decremento de ventas, citado.")
-
-      .col-xl-6
+    .row.justify-content-center.mb-5
+      .col-xl-12
         .tarjeta.color-acento-botones1.p-4.mb-5
           h4 Ejemplo 2
           p.mb-0 Se digita un código para obtener un diccionario de notas con las materias de un salón de clase y además una cadena con la palabra de algún color y que retorne un diagrama de barras con las notas y también en el color que se indicó.
 
+        .row.justify-content-center.mb-5
+          .col-xl-8
+            .titulo-sexto.color-acento-contenido.mb-4
+              h5 Figura 10.
+              span Simulación de caso 2
 
-        .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 10.
-          span Simulación de caso 2
-
-        figure
-          img(src="@/assets/curso/tema6/img3.png", alt="Imagen de la simulación del caso, que muestra el código señalado y el diagrama de barras con las materias y notas.")
+            figure
+              img(src="@/assets/curso/tema6/img3.png", alt="Imagen de la simulación del caso, que muestra el código señalado y el diagrama de barras con las materias y notas.")
 
     .row
       .col-auto
