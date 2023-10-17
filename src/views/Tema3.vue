@@ -30,7 +30,7 @@
           span Simulación de caso 1
 
         figure
-          img(src="@/assets/curso/tema6/img2.png", alt="")
+          img(src="@/assets/curso/tema6/img2.png", alt="Imagen de la simulación del caso, que muestra el código señalado y el diagrama con el incremento o decremento de ventas, citado.")
 
       .col-xl-6
         .tarjeta.color-acento-botones1.p-4.mb-5
@@ -43,7 +43,7 @@
           span Simulación de caso 2
 
         figure
-          img(src="@/assets/curso/tema6/img3.png", alt="")
+          img(src="@/assets/curso/tema6/img3.png", alt="Imagen de la simulación del caso, que muestra el código señalado y el diagrama de barras con las materias y notas.")
 
     .row
       .col-auto

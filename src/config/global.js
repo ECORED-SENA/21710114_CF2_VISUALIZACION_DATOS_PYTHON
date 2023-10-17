@@ -175,29 +175,29 @@ export default {
         'es la ubicación real o imaginaria que representa el centro del grupo. Cada punto de datos se asigna a cada uno de los grupos mediante la reducción de la suma de cuadrados en el grupo.',
     },
     {
-      termino: 'Dataset',
+      termino: '<i>Dataset</i>',
       significado:
         'no es más que un conjunto de datos tabulados en cualquier sistema de almacenamiento de datos estructurados.',
     },
     {
       termino: 'Google Colaboratory',
       significado:
-        'Colaboratory, o "Colab" para abreviar, es un producto de Google Research. Permite a cualquier usuario escribir y ejecutar código arbitrario de Python en el navegador. Es especialmente adecuado para tareas de aprendizaje automático, análisis de datos y educación.',
+        ' Colaboratory, o "Colab" para abreviar, es un producto de Google Research. Permite a cualquier usuario escribir y ejecutar código arbitrario de Python en el navegador. Es especialmente adecuado para tareas de aprendizaje automático, análisis de datos y educación.',
     },
     {
       termino: 'IPython',
       significado:
-        'es un <em>shell</em> interactivo que añade funcionalidades extra al modo interactivo incluido con Python, como resaltado de líneas y errores mediante colores, una sintaxis adicional para el shell, autocompletado mediante tabulador de variables, módulos y atributos.',
+        'es un <em>shell</em> interactivo que añade funcionalidades extra al modo interactivo incluido con Python, como resaltado de líneas y errores mediante colores, una sintaxis adicional para el <i>shell</i>, autocompletado mediante tabulador de variables, módulos y atributos.',
     },
     {
       termino: 'Jupyter',
       significado:
-        'Jupyter Notebook es una aplicación cliente-servidor lanzada en 2015 por la organización sin ánimo de lucro Proyecto Jupyter. Permite crear y compartir documentos web en formato JSON que siguen un esquema versionado y una lista ordenada de celdas de entrada y de salida. Estas celdas albergan, entre otras cosas, código, texto (en formato Markdown), fórmulas matemáticas y ecuaciones, o también contenido multimedia (Rich Media). El programa se ejecuta desde la aplicación web cliente que funciona en cualquier navegador estándar.',
+        'Jupyter Notebook es una aplicación cliente-servidor lanzada en 2015 por la organización sin ánimo de lucro Proyecto Jupyter. Permite crear y compartir documentos web en formato JSON que siguen un esquema versionado y una lista ordenada de celdas de entrada y de salida. Estas celdas albergan, entre otras cosas, código, texto (en formato <i>Markdown</i>), fórmulas matemáticas y ecuaciones, o también contenido multimedia (<i>Rich Media</i>). El programa se ejecuta desde la aplicación web cliente que funciona en cualquier navegador estándar.',
     },
     {
       termino: '<em>Machine Learning</em>',
       significado:
-        '<em>Machine Learning</em> es una forma de la IA que permite a un sistema aprender de los datos en lugar de aprender mediante la programación explícita. Sin embargo, machine learning no es un proceso sencillo. Conforme el algoritmo ingiere datos de entrenamiento, es posible producir modelos más precisos basados en datos. Un modelo de machine learning es la salida de información que se genera cuando entrena su algoritmo de machine learning con datos. Después del entrenamiento, al proporcionar un modelo con una entrada, se le dará una salida.',
+        '<em>Machine Learning</em> es una forma de la IA que permite a un sistema aprender de los datos en lugar de aprender mediante la programación explícita. Sin embargo, machine learning no es un proceso sencillo. Conforme el algoritmo ingiere datos de entrenamiento, es posible producir modelos más precisos basados en datos. Un modelo de machine learning es la salida de información que se genera cuando entrena su algoritmo de <i>machine learning</i> con datos. Después del entrenamiento, al proporcionar un modelo con una entrada, se le dará una salida.',
     },
   ],
   referencias: [
@@ -270,7 +270,7 @@ export default {
           nombre: 'Rafael Neftalí Lizcano Reyes',
           cargo: 'Responsable de Línea de Producción',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -281,28 +281,28 @@ export default {
           nombre: 'José Luis Bastidas Pérez',
           cargo: 'Experto Temático',
           centro:
-            'Regional Cauca - Centro de Teleinformática y Producción Industrial',
+            'Centro de Teleinformática y Producción Industrial - Regional Cauca',
         },
         {
           nombre: 'Zvi Daniel Grosman Landáez',
           cargo: 'Diseñador Instruccional',
-          centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
         },
         {
           nombre: 'Andrés Felipe Velandia Espitia',
           cargo: 'Asesor Metodológico',
-          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
         {
           nombre: 'Fabián Leonardo Correa Díaz',
           cargo: 'Diseñadora Instruccional',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Darío González',
           cargo: 'Corrector de estilo',
-          centro: 'Regional Distrito Capital – Centro de Diseño y Metrología',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
       ],
     },
@@ -313,25 +313,31 @@ export default {
           nombre: 'Yerson Fabian Zarate',
           cargo: 'Diseñador de Contenidos Digitales',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Emilsen Alfonso Bautista',
           cargo: 'Desarrollador Fullstack',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Carmen Alicia Martinez Torres',
           cargo: 'Animador y Producción audiovisual',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Camilo Andrés Bolaño Rey',
+          cargo: 'Locución ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Emilsen Alfonso Bautista',
           cargo: 'Actividad Didáctica',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -342,19 +348,19 @@ export default {
           nombre: 'Zuleidy María Ruiz Torres',
           cargo: 'Validador de Recursos Educativos Digitales',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
           cargo: 'Validador de Recursos Educativos Digitales',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },

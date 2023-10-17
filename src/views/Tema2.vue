@@ -5,13 +5,17 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Implementación con #[em Matplotlib]
+      h1 Implementación con  Matplotlib
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema5/img1.png')})`}"
       )
       .bloque-texto-g__texto.px-4.py-5
         p Esta librería se destaca por ser la más utilizada en la comunidad desarrolladora, particularmente, para los científicos de datos. Matplotlib, como ya se ha dicho, no es más que una biblioteca de Python para la visualización de gráficas dinámicas o estáticas. En este apartado, se tratará de explicar cómo es su implementación y cuáles son las gráficas resultantes.
+
+    
+    p.my-5 Para instalar e implementar la biblioteca, se corre el comando <b>pip</b>, a través de los siguientes pasos:
+      
     .row.justify-content-center.align-items-center
       .col-lg-3.mb-4.mb-lg-0
         figure
@@ -20,7 +24,7 @@
         LineaTiempoD.color-primario
           .row(numero="1" titulo="Primer paso")
             .col-12
-              p Correr el comando pip a través de Google Colab: pip install matplotlib
+              p Correr el comando pip a través de Google Colab: <b>pip install matplotlib</b>
               p Una vez realizada la activación de la librería, utilizamos los parámetros adecuados para realizar una gráfica, estos parámetros pueden estar dados por una empresa que requiera visualizar el comportamiento de determinado producto en el tiempo o simplemente con fines estadísticos o de geolocalización.
           .row(numero="2" titulo="Segundo paso")
             .col-12
@@ -28,7 +32,7 @@
               p Graficamos la siguiente función: f (x)=sin2(X-2)e-X2 sobre el intervalo [0,2], agregando la etiqueta de los ejes y un título apropiado, como vemos en la imagen.
           .row(numero="3" titulo="Tercer paso")
             .col-12
-              p En el #[em script] que se observa a continuación, se comentarán todos los ajustes correspondientes; los parámetros son esenciales para darle la forma y función al gráfico, pero puede cambiar y jugar con estos valores para estudiar sus cambios.
+              p Al mostrarse el #[em script], se comentarán todos los ajustes correspondientes; los parámetros son esenciales para darle la forma y función al gráfico, pero puede cambiar y jugar con estos valores para estudiar sus cambios.
           .row(numero="4" titulo="Cuarto paso")
             .col-12
               p Pero, a su vez, si lo necesitamos, al modificar los parámetros colocados, la gráfica debe cambiar, como podemos ver en la imagen.
@@ -50,7 +54,7 @@
     .titulo-sexto.color-acento-contenido
       p.mb-0 #[b Figura 1]. Gráfica de comparación de datos
     figure.mb-5
-      img(src='@/assets/curso/tema5/img3.svg', style="width: 1250px" ,alt='').m-auto
+      img(src='@/assets/curso/tema5/img3.svg', style="width: 1250px" ,alt='Gráfica de barras que muestra comparaciones y contrastes entre distintos datos.').m-auto
     p.mb-5 Los siguientes tipos de gráficos son muy útiles y suelen ser, también, frecuentemente usados:
     .row.mb-5
       .col-12.bg-c5
@@ -60,7 +64,7 @@
     .titulo-sexto.color-acento-contenido
       p.mb-0 #[b Figura 2]. Gráfica de exploración de relaciones
     figure.mb-5
-      img(src='@/assets/curso/tema5/img4.svg', style="width: 1250px" ,alt='').m-auto
+      img(src='@/assets/curso/tema5/img4.svg', style="width: 1250px" ,alt='Gráfica que muestra la relación de proporciones entre sistemas operativos en Colombia.').m-auto
     p.mb-5 Cuando lo que se quiere es explorar la composición, por ejemplo, de una variable categórica y analizar relaciones del tipo part-to-whole, los siguientes tipos de visualizaciones son muy útiles:
     .row.mb-5
       .col-12.bg-c5
@@ -70,7 +74,7 @@
     .titulo-sexto.color-acento-contenido
       p.mb-0 #[b Figura 3]. Gráfica de análisis en el tiempo
     figure.mb-5
-      img(src='@/assets/curso/tema5/img5.svg', style="width: 1250px" ,alt='').m-auto
+      img(src='@/assets/curso/tema5/img5.svg', style="width: 1250px" ,alt='Gráfica que muestra los estados o puntos de alguna variable en el tiempo.').m-auto
     p.mb-5 Cuando se busca analizar la relación entre una o más variables con un componente temporal como, por ejemplo, el analizar la evolución de los salarios de Uruguay, respecto del tiempo, los siguientes tipos de visualizaciones son los indicados:
     .row.mb-5
       .col-12.bg-c5
@@ -80,7 +84,7 @@
     .titulo-sexto.color-acento-contenido
       p.mb-0 #[b Figura 4]. Representación gráfica de datos estructurados (#[i dataset])
     figure.mb-5
-      img(src='@/assets/curso/tema5/img6.svg', style="width: 1250px" ,alt='').m-auto
+      img(src='@/assets/curso/tema5/img6.svg', style="width: 1250px" ,alt='Imagen de un plano que representa datos estructurados o dataset.').m-auto
     p.mb-5 Para analizar la distribución de una variable en un determinado dataset y comparar, por ejemplo, con otros datasets, encontrando relaciones y correlaciones, los siguientes tipos de gráficos son muy útiles:
     .row.mb-5
       .col-12.bg-c5
@@ -90,24 +94,24 @@
     .titulo-sexto.color-acento-contenido
       p.mb-0 #[b Figura 5]. Gráfica de #[i performance]
     figure.mb-5
-      img(src='@/assets/curso/tema5/img7.svg', style="width: 1250px" ,alt='').m-auto
+      img(src='@/assets/curso/tema5/img7.svg', style="width: 1250px" ,alt='Elemento gráfico que expone las variaciones de temperatura y clima en una ciudad.').m-auto
     p.mb-5 Cuando se quiere evaluar el rendimiento de una variable y comparar el valor real con valores KPI, se suele recurrir a los siguientes tipos de gráficos:
     TabsA.color-acento-botones.mb-5
-      .tarjeta.color-acento-botones1.p-4(titulo="Gauge circular")
+      .tarjeta.color-acento-botones1.p-4(titulo="<i>Gauge</i> circular")
         .row.align-items-center
           .col-lg-8.mb-4.mb-lg-0
             p.mb-0 El indicador circular o indicador angular es un tipo de gráfico de indicadores, con una escala radial, como velocímetro, voltímetro, amperímetro y otros.
           .col-lg-4
             figure
               img(src='@/assets/curso/tema5/img20.png', style="width: 350px" ,alt='').m-auto
-      .tarjeta.color-acento-botones1.p-4(titulo="Gauge lineal")
+      .tarjeta.color-acento-botones1.p-4(titulo="<i>Gauge</i> lineal")
         .row.align-items-center
           .col-lg-8.mb-4.mb-lg-0
-            p.mb-0 Linear Gauge es una visualización de herramientas de medición con una escala lineal, como termómetros, tanques, indicadores de color (LED), etc. Los valores de los datos se muestran en el eje del indicador, con la ayuda de uno o varios punteros: marcadores, rangos, etc.
+            p.mb-0 <i>Linear Gauge</i> es una visualización de herramientas de medición con una escala lineal, como termómetros, tanques, indicadores de color (LED), etc. Los valores de los datos se muestran en el eje del indicador, con la ayuda de uno o varios punteros: marcadores, rangos, etc.
           .col-lg-4
             figure
               img(src='@/assets/curso/tema5/img21.png', style="width: 350px" ,alt='').m-auto
-      .tarjeta.color-acento-botones1.p-4(titulo="Bullet graph")
+      .tarjeta.color-acento-botones1.p-4(titulo="<i>Bullet graph</i>")
         .row.align-items-center
           .col-lg-8.mb-4.mb-lg-0
             p.mb-0 Los gráficos de viñetas están diseñados para superar los problemas fundamentales de los indicadores circulares y lineales, que a menudo están repletos de decoración inútil (y que distrae), mientras muestran muy poca información y requieren demasiado espacio. Los gráficos de viñetas pueden ser tanto verticales como horizontales.
@@ -118,7 +122,7 @@
     .titulo-sexto.color-acento-contenido
       p.mb-0 #[b Figura 6]. Gráfica de #[i performance] geográfico
     figure.mb-5
-      img(src='@/assets/curso/tema5/img8.svg', style="width: 1250px" ,alt='').m-auto
+      img(src='@/assets/curso/tema5/img8.svg', style="width: 1250px" ,alt='Gráfica que divide, políticamente, los estados de un país.').m-auto
     p.mb-5 Muchas veces, la mejor forma de darle sentido a datos geográficos (georreferenciados) es utilizando visualizaciones en un mapa, teniendo en cuenta:
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0
@@ -126,19 +130,19 @@
           img(src='@/assets/curso/tema5/img9.svg', style="width: 450px" ,alt='').m-auto
       .col-lg-8
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
-          .row(titulo="Mapa de colores (choropleth map)")
+          .row(titulo="Mapa de colores (<i>choropleth map</i>)")
             .col-12
               p permite identificar diferencias entre áreas geográficas.
-          .row(titulo="Mapa de puntos (dot map)")
+          .row(titulo="Mapa de puntos (<i>dot map</i>)")
             .col-12
               p Proporciona una visualización accesible de la distribución geográfica de los fenómenos en las áreas geográficas en las que se encuentran.
-          .row(titulo="Mapa de burbujas (bubble map)")
+          .row(titulo="Mapa de burbujas (<i>bubble map</i>)")
             .col-12
               p Similar a los gráficos de burbujas, permite agregar una tercera dimensión a la posición de un fenómeno, utilizando el tamaño de una burbuja. Son muy útiles para agregar la información de un mapa de puntos cuando se cuenta con tantos puntos que se hace difícil entender la visualización.
-          .row(titulo="Mapa de conexiones (connector map)")
+          .row(titulo="Mapa de conexiones (<i>connector map</i>)")
             .col-12
               p Permite representar relaciones entre los distintos puntos del mapa mediante líneas que unen los puntos.
-          .row(titulo="Mapa de flujos (flow map)")
+          .row(titulo="Mapa de flujos (<i>flow map</i>)")
             .col-12
               p Útiles para explorar cómo los objetos se mueven entre ubicaciones, en especial cuando interesa mostrar la dirección del flujo.
     p Hasta este punto, se han presentado diferentes maneras para realizar una gráfica, según la necesidad que se quiera representar, sabiendo que se tiene una gran cantidad de opciones, según el fin que se busque.
@@ -172,17 +176,17 @@
               .p-4
                 figure.mb-4
                   img(src='@/assets/curso/tema5/img12.svg', style="width: 120px" ,alt='').m-auto
-                p.text-center.mb-0 Hay dos estructuras poderosas dentro de la librería de datos Pandas: Series y DataFrame. Las Series hacen referencia a un array unidimensional que puede almacenar cualquier tipo de dato.
+                p.text-center.mb-0 Hay dos estructuras poderosas dentro de la librería de datos Pandas: Series y <i>DataFrame</i>. Las Series hacen referencia a un array unidimensional que puede almacenar cualquier tipo de dato.
             .col-10.col-md-8.col-lg-4.bg-c14
               .p-4
                 figure.mb-4
                   img(src='@/assets/curso/tema5/img12.svg', style="width: 120px" ,alt='').m-auto
-                p.text-center.text-white.mb-0 Los DataFrame son bidimensionales, con estructuras que pueden albergar cualquier tipo de dato; a su vez, se pueden interpretar como series.
+                p.text-center.text-white.mb-0 Los <i>DataFrame</i> son bidimensionales, con estructuras que pueden albergar cualquier tipo de dato; a su vez, se pueden interpretar como series.
     h3.mb-4 Datos geográficos
     .titulo-sexto.color-acento-contenido
       p.mb-0 #[b Figura 7]. Series y #[i DataFrames]
     figure.mb-5
-      img(src='@/assets/curso/tema5/img13.svg', style="width: 1250px" ,alt='').m-auto
+      img(src='@/assets/curso/tema5/img13.svg', style="width: 1250px" ,alt='Imagen de dos series que integran un DataFrame.').m-auto
     p.mb-5 ¿Qué se necesita para trabajar con Pandas a partir de ahora? Analice la información presentada en el siguiente video, la cual le indicará lo que necesitará:
     figure
       .video
@@ -196,7 +200,7 @@
         .row
           .col-12.bg-c6
             .p-4
-              p.mb-0 Como se ha venido estudiando en este componente formativo, se observa que existen diversas gráficas que pueden ayudar a la proyección estadística de algo que se quiera visualizar de la mejor manera, utilizando las herramientas correspondientes y las técnicas adecuadas para conseguir el objetivo propuesto; no obstante, las librerías que suministra Python son la mejor opción en el mercado de la ciencia de datos. Por ese motivo, la librería Matplotlib es la más utilizada en la comunidad del Big Data, se trata de la librería más grande y más completa de Python, que además de eso contiene dos módulos principales: pyplot y pylab, ambos con diferencias puntuales.
+              p.mb-0 Como se ha venido estudiando en este componente formativo, se observa que existen diversas gráficas que pueden ayudar a la proyección estadística de algo que se quiera visualizar de la mejor manera, utilizando las herramientas correspondientes y las técnicas adecuadas para conseguir el objetivo propuesto; no obstante, las librerías que suministra Python son la mejor opción en el mercado de la ciencia de datos. Por ese motivo, la librería Matplotlib es la más utilizada en la comunidad del <i>Big Data</i>, se trata de la librería más grande y más completa de Python, que además de eso contiene dos módulos principales: pyplot y pylab, ambos con diferencias puntuales.
       .col-lg-8
         figure
           img(src='@/assets/curso/tema5/img26.png', style="width: 775px" ,alt='').m-auto
@@ -213,12 +217,12 @@
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 8]. Comenzando a graficar funciones
               figure.mb-5
-                img(src='@/assets/curso/tema5/img27.png', style="width: 550px" ,alt='').m-auto
+                img(src='@/assets/curso/tema5/img27.png', style="width: 550px" ,alt='Imagen que muestra el comienzo de la graficación de funciones.').m-auto
               p.mb-5 Luego, se procede a crear un gráfico de la manera más sencilla posible:
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 9]. Graficación
               figure
-                img(src='@/assets/curso/tema5/img28.png', style="width: 650px" ,alt='').m-auto
+                img(src='@/assets/curso/tema5/img28.png', style="width: 650px" ,alt='Imagen que muestra la manera en que se generó una gráfica.').m-auto
 
 </template>
 
@@ -274,7 +278,7 @@ export default {
       {
         titulo: 'Gráfico de embudo',
         texto:
-          'Este tipo de gráfico se utiliza mucho para comparar variables cuantitativas que de alguna forma están relacionadas entre sí como parte de un proceso. Por ejemplo, se puede utilizar para analizar ventas de un sitio de e-commerce, ayudando a identificar los cuellos de botella del proceso.',
+          'Este tipo de gráfico se utiliza mucho para comparar variables cuantitativas que de alguna forma están relacionadas entre sí como parte de un proceso. Por ejemplo, se puede utilizar para analizar ventas de un sitio de <i>e-commerce</i>, ayudando a identificar los cuellos de botella del proceso.',
         imagen: require('@/assets/curso/tema5/img8.png'),
         //leyendaImagen: 'Leyenda de la imagen',
       },
@@ -332,7 +336,7 @@ export default {
         //leyendaImagen: 'Leyenda de la imagen',
       },
       {
-        titulo: 'Gráfico Box and Whisker',
+        titulo: 'Gráfico <i>Box and Whisker</i>',
         texto:
           'El diagrama de caja y bigotes es un tipo de gráfico que muestra un resumen de una gran cantidad de datos en cinco medidas descriptivas, además de intuir su morfología y simetría. Este tipo de gráficos nos permite identificar valores atípicos y comparar distribuciones.',
         imagen: require('@/assets/curso/tema5/img16.png'),

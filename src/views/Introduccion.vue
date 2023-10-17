@@ -38,7 +38,7 @@
                 p #[strong A continuación, le invitamos a ver explorar el siguiente video, el cual introduce los temas de este componente formativo:]
           figure(data-aos="fade-left")
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/iFrXtJghNyM?si=Q2woLrVXZHwklYbm" title="Herramientas de visualización de datos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 </template>
 
