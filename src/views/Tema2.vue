@@ -37,7 +37,7 @@
             .col-12
               p Pero, a su vez, si lo necesitamos, al modificar los parámetros colocados, la gráfica debe cambiar, como podemos ver en la imagen.
     Separador
-    #t_5_1
+    #t_2_1
     .titulo-segundo.color-acento-contenido
       h2 2.1 Componentes de una figura
     .row.align-items-center.mb-5
@@ -152,7 +152,7 @@
         .p-4
           SlyderB(:datos="datosSlyder5")
     Separador
-    #t_5_2
+    #t_2_2
     .titulo-segundo.color-acento-contenido
       h2 2.2 Definición de Pandas
     .row.bg-c13
@@ -190,9 +190,10 @@
     p.mb-5 ¿Qué se necesita para trabajar con Pandas a partir de ahora? Analice la información presentada en el siguiente video, la cual le indicará lo que necesitará:
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/W48LYsToQHQ?si=9wkplZSgUYufKIHQ" title="Definición de pandas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Definición de pandas
     Separador
-    #t_5_3
+    #t_2_3
     .titulo-segundo.color-acento-contenido
       h2 2.3 Tipos de entradas para graficar funciones
     .row.mb-5
