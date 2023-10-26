@@ -85,7 +85,7 @@
       p.mb-0 #[b Figura 4]. Representación gráfica de datos estructurados (#[i dataset])
     figure.mb-5
       img(src='@/assets/curso/tema5/img6.svg', style="width: 1250px" ,alt='Imagen de un plano que representa datos estructurados o dataset.').m-auto
-    p.mb-5 Para analizar la distribución de una variable en un determinado dataset y comparar, por ejemplo, con otros datasets, encontrando relaciones y correlaciones, los siguientes tipos de gráficos son muy útiles:
+    p.mb-5 Para analizar la distribución de una variable en un determinado <i>dataset</i> y comparar, por ejemplo, con otros <i>datasets</i>, encontrando relaciones y correlaciones, los siguientes tipos de gráficos son muy útiles:
     .row.mb-5
       .col-12.bg-c5
         .p-4
@@ -158,7 +158,7 @@
     .row.bg-c13
       .col-12
         .p-5
-          p Según Google Colaboratory (2022), “Es una API de análisis de datos en columnas, ideal para manipular y analizar datos de entrada”. Además, muchos marcos de trabajo de AA admiten las estructuras de datos Pandas como entradas. Pandas es muy popular, es una librería por preferencia dentro de la comunidad desarrolladora, es una de las más versátiles entre las de código abierto y más aún cuando se habla de temas como ciencia de datos y machine learning por su poderío en las estructuras que ofrece y la facilidad para manejar grandes cantidades de datos.
+          p Según Google Colaboratory (2022), “Es una API de análisis de datos en columnas, ideal para manipular y analizar datos de entrada”. Además, muchos marcos de trabajo de AA admiten las estructuras de datos Pandas como entradas. Pandas es muy popular, es una librería por preferencia dentro de la comunidad desarrolladora, es una de las más versátiles entre las de código abierto y más aún cuando se habla de temas como ciencia de datos y <i>machine learning</i> por su poderío en las estructuras que ofrece y la facilidad para manejar grandes cantidades de datos.
           .row.justify-content-between.mb-5
             .col-auto.bg-c6
               .p-3
@@ -176,7 +176,7 @@
               .p-4
                 figure.mb-4
                   img(src='@/assets/curso/tema5/img12.svg', style="width: 120px" ,alt='').m-auto
-                p.text-center.mb-0 Hay dos estructuras poderosas dentro de la librería de datos Pandas: Series y <i>DataFrame</i>. Las Series hacen referencia a un array unidimensional que puede almacenar cualquier tipo de dato.
+                p.text-center.mb-0 Hay dos estructuras poderosas dentro de la librería de datos Pandas: Series y <i>DataFrame</i>. Las Series hacen referencia a un <i>array</i> unidimensional que puede almacenar cualquier tipo de dato.
             .col-10.col-md-8.col-lg-4.bg-c14
               .p-4
                 figure.mb-4
@@ -205,7 +205,7 @@
       .col-lg-8
         figure
           img(src='@/assets/curso/tema5/img26.png', style="width: 775px" ,alt='').m-auto
-    p.mb-5 Pyplot es muy versátil y permite crear gráficas automatizando sus ejes cuando son creados. Por otro lado, pylab no se queda atrás con sus bondades, ya que trae algo de pyplot para la creación de gráficos con la versatilidad de Numpy y realizar cálculos con arrays con una etiqueta muy particular de Matlab.
+    p.mb-5 Pyplot es muy versátil y permite crear gráficas automatizando sus ejes cuando son creados. Por otro lado, pylab no se queda atrás con sus bondades, ya que trae algo de pyplot para la creación de gráficos con la versatilidad de Numpy y realizar cálculos con <i>arrays</i> con una etiqueta muy particular de Matlab.
     .row.align-items-center
       .col-lg-4.mb-4.mb-lg-0
         figure
@@ -307,9 +307,9 @@ export default {
         //leyendaImagen: 'Leyenda de la imagen',
       },
       {
-        titulo: 'Gráfico Sparkline',
+        titulo: 'Gráfico <i>Sparkline</i>',
         texto:
-          'Consiste en construir versiones simplificadas y pequeñas de otros gráficos temporales, como Line Charts o Area Charts, eliminando, por ejemplo, los ejes del gráfico. Son muy útiles para utilizar en tablas, donde, para cada fila, queremos hacer más visual una variable determinada. Por ejemplo, listar los montos totales de exportaciones de granos en Uruguay en un año entero utilizando Sparklines para mostrar, para cada grano, la variación mensual del precio de este.',
+          'Consiste en construir versiones simplificadas y pequeñas de otros gráficos temporales, como <i>Line Charts</i> o <i>Area Charts</i>, eliminando, por ejemplo, los ejes del gráfico. Son muy útiles para utilizar en tablas, donde, para cada fila, queremos hacer más visual una variable determinada. Por ejemplo, listar los montos totales de exportaciones de granos en Uruguay en un año entero utilizando <i>Sparklines</i> para mostrar, para cada grano, la variación mensual del precio de este.',
         imagen: require('@/assets/curso/tema5/img12.png'),
         //leyendaImagen: 'Leyenda de la imagen',
       },
@@ -318,7 +318,7 @@ export default {
       {
         titulo: 'Histogramas',
         texto:
-          'Un histograma es una representación de la estimación de la distribución de valores de un dataset numérico.',
+          'Un histograma es una representación de la estimación de la distribución de valores de un <i>dataset</i> numérico.',
         imagen: require('@/assets/curso/tema5/img13.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
@@ -371,21 +371,21 @@ export default {
         texto:
           '<b>bar(x, y)</b>: grafica una barra vertical, donde x es una lista con la posición de las barras en el eje X, y y es una lista con la altura de las barras en el eje Y.',
         imagen: require('@/assets/curso/tema5/img23.png'),
-        // leyendaImagen: 'Leyenda de la imagen',
+        // leyendaImagen: 'Imagen de una gráfica de barras, la cual ubica tres barras con distintos valores según su ubicación en los ejes X y Y.',
       },
       {
         titulo: 'Histogramas',
         texto:
           '<b>hist(x, bins)</b>: diagrama un histograma con las frecuencias que resultan de agrupar los datos de la lista x en las clases definidas por la lista bins.',
         imagen: require('@/assets/curso/tema5/img24.png'),
-        // leyendaImagen: 'Leyenda de la imagen',
+        // leyendaImagen: 'Imagen de un histograma.',
       },
       {
         titulo: 'Diagrama de sectores',
         texto:
           'Diagramar una imagen de sectores con frecuencias de la lista X.',
         imagen: require('@/assets/curso/tema5/img25.png'),
-        //leyendaImagen: 'Leyenda de la imagen',
+        //leyendaImagen: 'Imagen de un diagrama de sectores que muestra cinco sectores.',
       },
     ],
   }),

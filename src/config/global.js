@@ -300,7 +300,7 @@ export default {
         },
         {
           nombre: 'Darío González',
-          cargo: 'Corrector de estilo',
+          cargo: 'Corrector de Estilo',
           centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
       ],
@@ -322,7 +322,7 @@ export default {
         },
         {
           nombre: 'Carmen Alicia Martinez Torres',
-          cargo: 'Animador y Producción audiovisual',
+          cargo: 'Animador y Producción Audiovisual',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },

@@ -16,7 +16,7 @@
     .row.justify-content-center.mb-5
       .col-xl-11
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Esquema general de los contenidos de este componente formativo. Tema principal: Herramientas de visualización de datos. Temas integradores: Herramientas a utilizar, Implementación con Matplotlib, Simulación de la herramienta mediante caso práctico.")
 
     .row.justify-content-center.mb-5
       .col-auto
