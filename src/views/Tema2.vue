@@ -59,7 +59,33 @@
     .row.mb-5
       .col-12.bg-c5
         .p-4
-          SlyderB(:datos="datosSlyder1")
+          SlyderA(tipo="b")
+            .row
+              .col-lg-8.order-lg-2.mb-4.mb-lg-0
+                figure
+                  img(src='@/assets/curso/tema5/img2.png', alt='')
+
+              .col-lg-4.order-lg-1
+                h4 Gráfico de barras
+                p Permite comparar, de forma directa, valores cuantitativos por variable o categoría.
+
+            .row
+              .col-lg-8.order-lg-2.mb-4.mb-lg-0
+                figure
+                  img(src='@/assets/curso/tema5/img3.png', alt='')
+
+              .col-lg-4.order-lg-1
+                h4 Gráfico de pilas apliadas
+                p Permite analizar valores cuantitativos por categoría y, a la vez, compararlos con diferentes muestras. Por ejemplo, analizar el PBI de diferentes países, teniendo en cuenta el aporte porcentual de cada sector.
+            .row
+              .col-lg-8.order-lg-2.mb-4.mb-lg-0
+                figure
+                  img(src='@/assets/curso/tema5/img4.png', alt='')
+
+              .col-lg-4.order-lg-1
+                h4 Gráfico de radar
+                p Es otra alternativa para comparar los valores cuantitativos de diferentes variables. Por ejemplo, mostrar el puntaje en diferentes habilidades de las destrezas de un jugador de fútbol, como conversión de goles, precisión en pases, etc.
+          //SlyderB(:datos="datosSlyder1")
     h3.mb-4 Explorar relaciones / #[em Part-To-Whole] (de la parte al todo)
     .titulo-sexto.color-acento-contenido
       p.mb-0 #[b Figura 2]. Gráfica de exploración de relaciones
@@ -69,7 +95,41 @@
     .row.mb-5
       .col-12.bg-c5
         .p-4
-          SlyderB(:datos="datosSlyder2")
+          SlyderA(tipo="b")
+            .row
+              .col-lg-8.order-lg-2.mb-4.mb-lg-0
+                figure
+                  img(src='@/assets/curso/tema5/img5.png', alt='')
+
+              .col-lg-4.order-lg-1
+                h4 Gráfico de torta
+                p Permite analizar de forma básica la composición porcentual de una variable categórica.
+
+            .row
+              .col-lg-8.order-lg-2.mb-4.mb-lg-0
+                figure
+                  img(src='@/assets/curso/tema5/img6.png', alt='')
+
+              .col-lg-4.order-lg-1
+                h4 Gráfico piramidal
+                p Cuando los datos representan o responden a una "jerarquía", puede ser interesante utilizar este tipo de gráficos.
+            .row
+              .col-lg-8.order-lg-2.mb-4.mb-lg-0
+                figure
+                  img(src='@/assets/curso/tema5/img7.png', alt='')
+
+              .col-lg-4.order-lg-1
+                h4 Mapa de árbol
+                p Permite representar relaciones jerárquicas complejas. Por ejemplo, la cantidad de ingresos anuales de una compañía agregados por unidades de negocio y para cada unidad de negocio por proyecto.
+            .row
+              .col-lg-8.order-lg-2.mb-4.mb-lg-0
+                figure
+                  img(src='@/assets/curso/tema5/img8.png', alt='')
+
+              .col-lg-4.order-lg-1
+                h4 Gráfico de embudo
+                p Este tipo de gráfico se utiliza mucho para comparar variables cuantitativas que de alguna forma están relacionadas entre sí como parte de un proceso. Por ejemplo, se puede utilizar para analizar ventas de un sitio de <i>e-commerce</i>, ayudando a identificar los cuellos de botella del proceso.
+          //SlyderB(:datos="datosSlyder2")
     h3.mb-4 Análisis en el tiempo
     .titulo-sexto.color-acento-contenido
       p.mb-0 #[b Figura 3]. Gráfica de análisis en el tiempo
@@ -150,7 +210,34 @@
     .row
       .col-12.bg-c5
         .p-4
-          SlyderB(:datos="datosSlyder5")
+          SlyderA(tipo="b")
+            .row
+              .col-lg-8.order-lg-2.mb-4.mb-lg-0
+                figure
+                  img(src='@/assets/curso/tema5/img23.png', alt='Código de Python utilizando la librería matplotlib para crear un gráfico de barras. El código muestra la importación de matplotlib.pyplot y la creación de un gráfico con tres barras de alturas 3, 2 y 1 respectivamente. Debajo del código, se presenta una visualización del gráfico de barras resultante con las tres barras dispuestas en orden descendente.')
+
+              .col-lg-4.order-lg-1
+                h4 Gráfico de barras
+                p <b>bar(x, y)</b>: grafica una barra vertical, donde x es una lista con la posición de las barras en el eje X, y y es una lista con la altura de las barras en el eje Y.
+
+            .row
+              .col-lg-8.order-lg-2.mb-4.mb-lg-0
+                figure
+                  img(src='@/assets/curso/tema5/img24.png', alt='Código de Python que utiliza las librerías numpy y matplotlib para crear un histograma. El código genera una serie de datos aleatorios con una distribución normal centrada en 5 con una desviación estándar de 1.5 y luego crea un histograma de estos datos. La visualización resultante muestra un histograma con una forma de campana, indicando la distribución normal de los datos, con la mayoría de los valores centrados alrededor del número 5.')
+
+              .col-lg-4.order-lg-1
+                h4 Histogramas
+                p <b>hist(x, bins)</b>: diagrama un histograma con las frecuencias que resultan de agrupar los datos de la lista x en las clases definidas por la lista bins.
+            .row
+              .col-lg-8.order-lg-2.mb-4.mb-lg-0
+                figure
+                  img(src='@/assets/curso/tema5/img25.png', alt='Código de Python utilizando la librería matplotlib para crear un diagrama de sectores o gráfico circular. El código especifica cinco segmentos con valores 5, 4, 3, 2 y 1 respectivamente. La visualización resultante muestra un gráfico circular con cinco secciones de colores distintos, representando cada uno de los valores proporcionados, en proporción a su magnitud.')
+
+              .col-lg-4.order-lg-1
+                h4 Diagrama de sectores
+                p Diagramar una imagen de sectores con frecuencias de la lista X.
+
+          //SlyderB(:datos="datosSlyder5")
     Separador
     #t_2_2
     .titulo-segundo.color-acento-contenido
@@ -219,11 +306,14 @@
                 p.mb-0 #[b Figura 8]. Comenzando a graficar funciones
               figure.mb-5
                 img(src='@/assets/curso/tema5/img27.png', style="width: 550px" ,alt='Imagen que muestra el comienzo de la graficación de funciones.').m-auto
+              p La imagen ilustra, en la primera línea de código, cómo se importa pylab y se tiene inmersa la librería NumPy como np.
               p.mb-5 Luego, se procede a crear un gráfico de la manera más sencilla posible:
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 9]. Graficación
-              figure
-                img(src='@/assets/curso/tema5/img28.png', style="width: 650px" ,alt='Imagen que muestra la manera en que se generó una gráfica.').m-auto
+              figure.mb-4
+                img(src='@/assets/curso/tema5/img28.png', style="width: 650px" ,alt='Código de Python utilizando la librería pylab para graficar una función lineal. El código genera un array de valores flotantes que van de 0.0 a 9.0 y luego utiliza estos valores para generar un gráfico de la función y=x. El resultado es una visualización con una línea recta ascendente que se extiende desde el punto (0,0) hasta aproximadamente el punto (9,9) en un plano cartesiano.').m-auto
+
+              p La anterior, es una gráfica que se ha creado con 10 puntos en el #[i array] y se ha visualizado con #[i  show()].
 
 </template>
 
