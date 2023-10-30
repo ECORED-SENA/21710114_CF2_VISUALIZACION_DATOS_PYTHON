@@ -27,11 +27,11 @@
         .row.justify-content-center.mb-5
           .col-xl-8
             .titulo-sexto.color-acento-contenido.mb-4
-              h5 Figura 9.
+              h5 Figura 10.
               span Simulación de caso 1
 
             figure
-              img(src="@/assets/curso/tema6/img2.png", alt="Imagen de la simulación del caso, que muestra el código señalado y el diagrama con el incremento o decremento de ventas, citado.")
+              img(src="@/assets/curso/tema6/Figura_10.svg", alt="Imagen de la simulación del caso, que muestra el código señalado y el diagrama con el incremento o decremento de ventas, citado.")
 
     .row.justify-content-center.mb-5
       .col-xl-12
@@ -42,11 +42,11 @@
         .row.justify-content-center.mb-5
           .col-xl-8
             .titulo-sexto.color-acento-contenido.mb-4
-              h5 Figura 10.
+              h5 Figura 11.
               span Simulación de caso 2
 
             figure
-              img(src="@/assets/curso/tema6/img3.png", alt="Imagen de la simulación del caso, que muestra el código señalado y el diagrama de barras con las materias y notas.")
+              img(src="@/assets/curso/tema6/Figura_11.svg", alt="Imagen de la simulación del caso, que muestra el código señalado y el diagrama de barras con las materias y notas.")
 
     .row
       .col-auto

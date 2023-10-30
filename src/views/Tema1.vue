@@ -34,7 +34,7 @@
     p.mb-5 Cuando se empieza un proyecto de visualización, la duda que se viene a la cabeza es cuál herramienta utilizar para poder realizar un trabajo que satisfaga las necesidades del usuario final. #[b.txt-c1 En ese orden de ideas, es bueno tener en cuenta la siguiente guía, que ayudará a la escogencia de la herramienta o librería indicada; no es obligatorio seguirla al pie de la letra, pero será de gran valor a la hora de elegir]:
 
     figure.mb-5
-      img(src='@/assets/curso/tema4/img3.svg', style="" ,alt='').m-auto
+      img(src='@/assets/curso/tema4/img3.svg', style="" ,alt='Diagrama de decisión para guiar la elección de herramientas y librerías en Python para visualización de datos. El diagrama plantea la pregunta central ¿Qué quieres mostrar? y desglosa varias opciones y categorías, como: Comparación,Distribución y Relación, entre otras, para ayudar a determinar la mejor herramienta para cada necesidad específica.').m-auto
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
       .row(titulo="Dos variables (Relación)")
